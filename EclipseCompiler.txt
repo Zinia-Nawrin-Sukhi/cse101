@@ -1,0 +1,2 @@
+14 Jul 2018 3:14:39 GMT: Log 'EclipseCompiler.txt' opened: 14 Jul 2018 3:14:39 GMT with name E:\code1\EclipseCompiler.txt
+20 Jan 2019 12:36:04 GMT: Log 'EclipseCompiler.txt' opened: 20 Jan 2019 12:36:04 GMT with name E:\code1\EclipseCompiler.txt

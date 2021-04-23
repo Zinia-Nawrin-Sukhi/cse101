@@ -1,0 +1,23 @@
+public class Task11
+{
+  public static void main(String[]args)
+  {
+   
+    int i=1; int num=11;
+    while(num<=50)
+    {
+      if(num%2==0)
+      {
+        
+      }
+      else
+      {
+      System.out.println(num);
+     
+    }
+      num=num+2;
+      
+    }
+    
+  }
+}
