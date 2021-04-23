@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Task25II
+{
+  public static void main(String[]args)
+  {
+    Scanner sc=new Scanner(System.in); 
+  int i =1;
+  while(i<=7)
+  {
+    System.out.println("please enter a number");
+    int n=sc.nextInt();
+    if(n%2==0){
+  i++;
+    }
+  else 
+    {
+      int oddc=1,max=n; 
+      int sum=0;
+         
+    if(i<=7)
+    {
+      System.out.println("please enter another number");
+      int n2= sc.nextInt();
+      if(n%2==0){
+      i++;
+      }
+      else{
+        oddc++;
+      if(n>max)
+      {
+      n=max;
+     
+      sum=sum+n;
+      }
+      }
+      i++;
+    }
+    }
+  }
+  }
+    int avg=sum/oddc;
+
+    System.out.println(avg);
+    }
+  }

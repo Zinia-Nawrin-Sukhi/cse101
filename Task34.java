@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Task34
+{
+  public static void main(String[]args)
+  {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("please enter a number");
+    int n =sc.nextInt();
+    int i=1,sum=0;
+    while(i<=n)
+    {
+      if(i%4==0)
+      {
+        sum=sum+i;
+      i++;
+    }
+    }
+    
+   System.out.println(sum);
+  
+}
+}

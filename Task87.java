@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class Task87
+{
+  public static void main(String[]args)
+  {
+    Scanner sc=new Scanner(System.in);
+  
+    System.out.println("please enter a number");
+      int n1=sc.nextInt();
+    if(n1%2==0)
+    {
+    }
+    else{
+    int i=1,sum=0;
+    int max=n1;
+    while(i<=7)
+    {
+      System.out.println("please enter another number");
+      int n2= sc.nextInt();
+      if(n2%2==0){
+    }
+    else
+      {
+      if(n2<max)
+      {
+        n2=max;
+      }
+      }
+      i++;
+    }
+    }
+    sum=sum+i;
+    int avg=sum/7;
+   System.out.println(max);
+    System.out.println(avg);
+    } 
+  }
+  }

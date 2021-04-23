@@ -1,0 +1,27 @@
+
+public class Task37
+{
+  public static void main(String[]args)
+  {
+    
+      int c=1,sum=0,n=1;
+      while(c<1600)
+           
+      {
+      if(n%c==0)
+        {
+          
+            sum=sum+c;
+      }
+            c++;
+            n++;
+      }
+                    
+      if(sum==n)
+      {
+        System.out.println("Perfect number");
+      }
+     
+        }
+      }
+
